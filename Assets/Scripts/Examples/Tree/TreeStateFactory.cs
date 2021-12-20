@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TreeStateFactory : MonoBehaviour
+public class TreeStateFactory 
 {
     private TreeStateManager _manager;
 
