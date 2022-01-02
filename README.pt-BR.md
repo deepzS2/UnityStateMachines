@@ -3,6 +3,8 @@
 
 **Máquina de estados** é um modelo matemático usado para representar programas de computadores ou circuitos lógicos. O conceito é concebido como uma máquina abstrata que deve estar em um de um número finito de estados, deve possuir um estado por vez e um estado armazena informações sobre o passado. Uma transição indica uma mudança de estado e é descrita por uma condição que precisa ser realizada para que a transição ocorra. [- 🌐 Wikipedia](https://pt.wikipedia.org/wiki/Máquina_de_estados_finita)
 
+![](Images/State%20Machine.png)
+
 ## Como é implementado?
 Os arquivos com as classes abstratas está na *pasta [State Machine](Assets/Scripts/State%20Machine)* onde [State.cs](Assets/Scripts/State%20Machine/State.cs) representa um estado e [StateManager.cs](Assets/Scripts/State%20Machine/StateManager.cs) é a "gerente de estados" onde devemos executar as funções do estado por lá utilizando o MonoBehaviour do Unity.
 
@@ -23,6 +25,8 @@ Nesse arquivo temos 4 métodos, onde pode acrescentar mais métodos dependendo d
 Nesse arquivo só precisamos de um método para mudar de estado e um atributo que armazena o estado atual.
 
 `SwitchState(newState)` usa o `EnterState()` do novo estado e `ExitState()` do estado anterior.
+
+![](Images/State%20Machine%20Implementation.png)
 
 ## Examples
 Você pode ver os exemplos quando abrir o repositório na Unity. Acessando os arquivos das cenas pela *pasta [Demos](Assets/Demos)*.
