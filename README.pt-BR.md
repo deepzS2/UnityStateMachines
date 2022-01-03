@@ -56,9 +56,13 @@ Os arquivos com as classes abstratas estão na *pasta [HierarchicalStateMachine]
 Neste arquivo temos 9 métodos, incluindo os métodos do **State.cs** e acesso ao estado "pai", o estado "filho" e ao contexto.
 
 `UpdateStates()` é chamado no método Update MonoBehaviour para atualizar os estados de toda a hierarquia.
+
 `SetSuperState(newSuperState)` é chamado quando você define um novo estado "filho", então o estado "filho" precisa conhecer seu estado "pai".
+
 `SetSubState(newSubState)` é chamado quando você define um estado "filho".
+
 `InitializeSubState()` é chamado no construtor da classe, para verificar qual estado "filho" iremos inicializar.
+
 `SwitchState(newState)` é o mesmo que **StateManager.cs**, mas precisamos saber se estamos no estado raiz para realizar a troca de estado no Manager ou definir um novo estado "filho".
 
 ### HierarchicalStateManager.cs
