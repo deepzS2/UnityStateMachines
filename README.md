@@ -7,13 +7,15 @@
 
 <br />
 
-![](Images/State%20Machine.png)
-*State Machine representation*
+| ![](Images/State%20Machine.png) |
+|:--:|
+|*State Machine representation*|
 
 <br />
 
-![](Images/Hierarchical%20State%20Machine.png)
-*Hierarchical State Machine representation*
+| ![](Images/Hierarchical%20State%20Machine.png) |
+|:--:|
+|*Hierarchical State Machine representation*|
 
 <br />
 
@@ -40,8 +42,9 @@ In this file we only need a method to switch state and a attribute to store the 
 
 <br />
 
-![](Images/State%20Machine%20Implementation.png)
-*Implementation representation*
+| ![](Images/State%20Machine%20Implementation.png) |
+|:--:|
+|*Implementation representation*|
 
 <br />
 
@@ -62,8 +65,9 @@ In this file we only need a attribute to store the current state, so the `Switch
 
 <br />
 
-![](Images/Hierarchical%20State%20Machine%20Implementation.png)
-*Implementation representation*
+| ![](Images/Hierarchical%20State%20Machine%20Implementation.png) |
+|:--:|
+|*Implementation representation*|
 
 <br />
 
