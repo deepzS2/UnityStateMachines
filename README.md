@@ -55,9 +55,13 @@ The files with the abstract classes is in [Hierarchical State Machine folder](As
 In this file we have 9 methods, including the **State.cs** methods and access to the super state, sub state and context as well.
 
 `UpdateStates()` is called on Update MonoBehaviour method to update the states of the whole hierarchy.
+
 `SetSuperState(newSuperState)` is called when you set a new sub state, then the sub state need to know his parent.
-`SetSubState(newSubState)` is called when you set a sub state
+
+`SetSubState(newSubState)` is called when you set a sub state.
+
 `InitializeSubState()` is called on constructor of the class, to check which sub state we will initialize.
+
 `SwitchState(newState)` is the same as **StateManager.cs** but we need to know if we are root state to switch it on Manager or set a new sub state.
 
 ### HierarchicalStateManager.cs
