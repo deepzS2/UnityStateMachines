@@ -7,13 +7,15 @@
 
 <br />
 
-![](Images/State%20Machine.png)
-*Representação da Máquina de Estados*
+| ![](Images/State%20Machine.png) |
+|:--:|
+|*Representação da Máquina de Estados*|
 
 <br />
 
-![](Images/Hierarchical%20State%20Machine.png)
-*Representação da Máquina de Estados Hierárquica*
+| ![](Images/Hierarchical%20State%20Machine.png) | 
+|:--:|
+|*Representação da Máquina de Estados Hierárquica*|
 
 <br />
 
@@ -41,8 +43,9 @@ Nesse arquivo só precisamos de um método para mudar de estado e um atributo qu
 
 <br />
 
-![](Images/State%20Machine%20Implementation.png)
-*Implementação representada*
+| ![](Images/State%20Machine%20Implementation.png) |
+|:--:|
+|*Implementação representada*|
 
 <br />
 
@@ -63,8 +66,9 @@ Neste arquivo, precisamos apenas de um atributo para armazenar o estado raiz, en
 
 <br />
 
-![](Images/Hierarchical%20State%20Machine%20Implementation.png)
-*Implementação representada*
+| ![](Images/Hierarchical%20State%20Machine%20Implementation.png) |
+|:--:|
+|*Implementação representada*|
 
 <br />
 
