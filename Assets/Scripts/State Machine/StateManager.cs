@@ -5,7 +5,8 @@ using UnityEngine;
 /// </summary>
 public abstract class StateManager : MonoBehaviour
 {
-    public State CurrentState { get; set; }
+    private State _currentState;
+    public State CurrentState { get => _currentState; set => _currentState = value; }
 
     public void SwitchState(State state)
     {
